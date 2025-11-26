@@ -35,8 +35,6 @@
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-400">
             <li class="flex items-center lg:justify-end gap-2">
               <span>example@example.com</span>
-              <span>example@example.com</span>
-              <span>example@example.com</span>
             </li>
             <li class="flex items-center lg:justify-end gap-2"></li>
           </ul>

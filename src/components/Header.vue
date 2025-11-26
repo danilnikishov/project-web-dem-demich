@@ -48,7 +48,9 @@ const closeMenu = () => {
       />
       <div class="min-w-0">
         <!-- УВЕЛИЧИЛ РАЗМЕР ШРИФТА И УБРАЛ TRUNCATE -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold uppercase">street fashionista</h2>
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold uppercase">
+          street fashionista bober
+        </h2>
         <p class="text-xs sm:text-sm text-slate-400 hidden md:block">
           Только лучшая обувь для тебя
         </p>
