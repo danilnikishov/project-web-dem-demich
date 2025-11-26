@@ -36,6 +36,7 @@
             <li class="flex items-center lg:justify-end gap-2">
               <span>example@example.com</span>
               <span>example@example.com</span>
+              <span>example@example.com</span>
             </li>
             <li class="flex items-center lg:justify-end gap-2"></li>
           </ul>
