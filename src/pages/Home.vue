@@ -150,9 +150,17 @@ watch(filters, fetchItems)
             placeholder="Поиск..."
           />
         </div>
+        <!-- <select
+          @change="onChangeSelect"
+          class="py-2 px-3 border border-gray-200 rounded-md outline-none w-full sm:w-auto text-sm sm:text-base"
+        >
+          <option value="">По умолчанию</option>
+          <option value="price">По возрастанию цены</option>
+          <option value="-price">По убыванию цены</option>
+        </select> -->
         <select
           @change="onChangeSelect"
-          class="py-4 px-5 border-2 border-gray-200 rounded-xl outline-none w-full text-lg focus:border-blue-500 focus:ring-4 focus:ring-blue-200 transition-all"
+          class="py-3 px-4 text-base <!-- мобильный: крупнее --> border border-gray-200 rounded-md outline-none w-full sm:py-2 sm:px-3 sm:text-sm <!-- начиная с sm: вернуть прежний размер --> sm:w-auto"
         >
           <option value="">По умолчанию</option>
           <option value="price">По возрастанию цены</option>
